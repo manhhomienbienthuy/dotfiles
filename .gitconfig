@@ -1,0 +1,17 @@
+[color]
+	ui = auto
+[user]
+	name = manhhomienbienthuy
+	email = 1755796+manhhomienbienthuy@users.noreply.github.com
+	signingkey = 290D03B85EE81F0F
+[push]
+	default = current
+[core]
+	editor = vi
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lsu = ls-files -o --exclude-standard --full-name # list untracked files
+	lsm = ls-files -m --exclude-standard --full-name # list modified files.
+	ls = ls-files -mo --exclude-standard --full-name # list files changed and untracked files
+[commit]
+	gpgsign = true

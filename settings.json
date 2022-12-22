@@ -1,0 +1,40 @@
+// Settings for vscode
+{
+    "editor.suggestSelection": "first",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "remote.localPortHost": "allInterfaces",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "[markdown]": {
+        "editor.rulers": [
+            72,
+            80
+         ],
+        "rewrap.autoWrap.enabled": true,
+        "rewrap.wrappingColumn": 70,
+        "editor.autoClosingBrackets": "never"
+    }
+}

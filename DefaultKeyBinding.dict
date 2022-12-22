@@ -1,0 +1,21 @@
+/* ~/Library/KeyBindings/DefaultKeyBinding.Dict */
+
+{
+    "@\UF72B"  = "moveToEndOfDocument:";                         /* Cmd  + End   */
+    "@$\UF72B" = "moveToEndOfDocumentAndModifySelection:";       /* Shift + Cmd  + End */
+
+    "@\UF729"  = "moveToBeginningOfDocument:";                   /* Cmd  + Home  */
+    "@$\UF729" = "moveToBeginningOfDocumentAndModifySelection:"; /* Shift + Cmd  + Home */
+
+    "\UF729"   = "moveToBeginningOfLine:";                       /* Home         */
+    "$\UF729"  = "moveToBeginningOfLineAndModifySelection:";     /* Shift + Home */
+
+    "\UF72B"   = "moveToEndOfLine:";                             /* End          */
+    "$\UF72B"  = "moveToEndOfLineAndModifySelection:";           /* Shift + End  */
+
+    "$\UF728"  = "cut:";                                         /* Shift + Del  */
+    "$\UF746"  = "paste:";                                       /* Shift + Ins */
+    "@\UF746"  = "copy:";                                        /* Cmd  + Ins  */
+
+    "^~p"       = ("insertText:", "S0meTh1ng");
+}
