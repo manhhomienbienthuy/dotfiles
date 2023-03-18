@@ -7,7 +7,7 @@
 [push]
 	default = current
 [core]
-	editor = vi
+	editor = code -w
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	lsu = ls-files -o --exclude-standard --full-name # list untracked files
