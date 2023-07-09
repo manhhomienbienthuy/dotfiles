@@ -1,17 +1,27 @@
 // Settings for vscode
 {
+    "editor.fontFamily": "SF Mono, Menlo",
     "editor.suggestSelection": "first",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.startupEditor": "none",
+    "files.autoSave": "onFocusChange",
     "security.workspace.trust.untrustedFiles": "open",
     "remote.localPortHost": "allInterfaces",
-    "terminal.integrated.defaultProfile.osx": "zsh",
     "editor.rulers": [
         80,
         120
     ],
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "[Default Light Modern]": {
+            "editor.foreground": "#000"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
     "[javascriptreact]": {
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
@@ -29,12 +39,21 @@
     },
     "workbench.editor.untitled.hint": "hidden",
     "[markdown]": {
+        "editor.fontSize": 16,
+        "editor.lineHeight": 1.75,
         "editor.rulers": [
             72,
             80
-         ],
+        ],
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "editor.occurrencesHighlight": false,
+        "editor.autoClosingBrackets": "never",
+        "editor.autoClosingQuotes": "never",
+        "editor.formatOnPaste": true,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 80,
         "rewrap.autoWrap.enabled": true,
-        "rewrap.wrappingColumn": 70,
-        "editor.autoClosingBrackets": "never"
+        "rewrap.wrappingColumn": 70
     }
 }
