@@ -64,3 +64,12 @@ highlight BadWhitespace
 match BadWhitespace /^\t\+/                     " Flag tabs at the beginning
 match BadWhitespace /\s\+$/                     " Flag trailing whitespace
 syntax enable
+
+"----------------------- SETTING FOR SPECIFIC LANGUAGE ---------------------------
+
+autocmd BufNewFile,BufRead *.md set
+    \ filetype=markdown                         " .md file is markdown
+autocmd FileType markdown setlocal
+    \ textwidth=70
+    \ spell
+    \ spelllang=en,vi                           " Check spell
