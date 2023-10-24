@@ -1,18 +1,19 @@
 // Settings for vscode
 {
-    "editor.fontFamily": "SF Mono, Menlo",
+    "editor.fontFamily": "SF Mono, Noto Mono, ui-monospace, monospace",
     "editor.suggestSelection": "first",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "files.autoSave": "onFocusChange",
+    "keyboard.dispatch": "keyCode",
     "security.workspace.trust.untrustedFiles": "open",
     "remote.localPortHost": "allInterfaces",
     "editor.rulers": [
         80,
         120
     ],
-    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.empty.hint": "hidden",
     "workbench.colorTheme": "Default Light Modern",
     "workbench.startupEditor": "none",
     "workbench.colorCustomizations": {
@@ -22,6 +23,8 @@
     },
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.defaultProfile.osx": "zsh",
+    "cSpell.enabled": false,
+    "typewriterScrollMode.enable": false,
     "[javascriptreact]": {
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
@@ -37,7 +40,6 @@
             "source.fixAll.eslint": true
         }
     },
-    "workbench.editor.untitled.hint": "hidden",
     "[markdown]": {
         "editor.fontSize": 16,
         "editor.lineHeight": 1.75,
