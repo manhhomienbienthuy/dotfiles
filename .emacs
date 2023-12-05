@@ -17,7 +17,6 @@
    ein
    elpy
    flycheck
-   material-theme
    py-autopep8
    markdown-mode))
 
@@ -35,10 +34,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
- '(custom-enabled-themes (quote (material)))
- '(custom-safe-themes
-   (quote
-    ("a24c5b3c12d147da6cef80938dca1223b7c7f70f2f382b26308eba014dc4833a" default)))
  '(elpy-modules
    (quote
     (elpy-module-company elpy-module-eldoc elpy-module-pyvenv elpy-module-yasnippet elpy-module-django elpy-module-sane-defaults)))
@@ -47,7 +42,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (py-autopep8 material-theme markdown-mode flycheck elpy ein better-defaults)))
+    (py-autopep8 markdown-mode flycheck elpy ein better-defaults)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
