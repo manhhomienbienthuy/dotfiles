@@ -13,10 +13,16 @@
         80,
         120
     ],
+    "editor.minimap.enabled": false,
+    "editor.folding": false,
+    "editor.lineDecorationsWidth": 25,
+    "editor.guides.indentation": false,
     "workbench.editor.empty.hint": "hidden",
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Light 2026",
     "workbench.startupEditor": "none",
     "workbench.colorCustomizations": {
+        "editorLineNumber.foreground": "#aaa",
+        "editorLineNumber.activeForeground": "#666",
         "[Default Light Modern]": {
             "editor.foreground": "#000"
         }
@@ -25,6 +31,14 @@
     "terminal.integrated.defaultProfile.osx": "zsh",
     "cSpell.enabled": false,
     "typewriterScrollMode.enable": false,
+    "[cpp]": {
+        "editor.formatOnSave": true,
+        "editor.minimap.enabled": false,
+        "editor.folding": false,
+        "editor.lineDecorationsWidth": 25,
+        "editor.guides.indentation": false,
+    },
+    "C_Cpp.clang_format_fallbackStyle": "Google",
     "[javascriptreact]": {
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
